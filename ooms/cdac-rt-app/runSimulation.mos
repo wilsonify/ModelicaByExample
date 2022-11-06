@@ -1,0 +1,17 @@
+//setCompiler("gcc");
+//setLinker("g++");
+loadModel(Modelica); getErrorString();
+loadFile("DACSRealTimeSynchronization.mo"); getErrorString();
+loadFile("Tanksystem.mo"); getErrorString();
+loadFile("OneTankSystem.mo"); getErrorString();
+loadFile("TwoTankSystem.mo"); getErrorString();
+
+writeFile("PROCESS1.txt","3"); getErrorString();
+writeFile("OUTFILE1.txt","3"); getErrorString();
+
+system("gcc -o libTimerFunction.o -c TimerFunction.c -I/usr/include/omc"); getErrorString();
+system("gcc -o libModelicaPrint.o -c ModelicaPrint.c"); getErrorString();
+system("gcc -o libModelicaRead.o -c ModelicaRead.c"); getErrorString();
+simulate(OneTankSystem,cflags="-g",measureTime=true); getErrorString();
+
+plot({realTime, simulationTime, simulationSpeed});

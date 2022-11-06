@@ -1,0 +1,179 @@
+<!DOCTYPE OMNotebook>
+<Notebook>
+  <GroupCell closed="false">
+    <TextCell style="Text">
+      <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:36pt; font-weight:600; text-decoration: underline; color:#000000;">CMOS Inverter&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">In this section you will have to try to create and simulate a CMOS Inverter and plot variables asked.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:18pt; font-weight:600; text-decoration: underline; color:#000000;">Create your model&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">The model you have to create is this one:&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">                                                                                      &lt;/span>&lt;img src="file:///D:/David/project/Tutorial/OMNotebook_tempfiles/5.png" width="326" height="347" />&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">The components are: two voltage sources, a PMOS transistor, a NMOS transistor, four grounds and a capacitor.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+      <Image name="file:///D:/David/project/Tutorial/OMNotebook_tempfiles/5.png">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</Image>
+    </TextCell>
+    <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="true" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+      <Input></Input>
+      <Output></Output>
+    </GraphCell>
+    <TextCell style="Text">
+      <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:18pt; font-weight:600; text-decoration: underline; color:#000000;">Simulate your model&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">As we did in the example, now you have to simulate your model. Use a stopTime of 5.5e-7 and an outputFormat = &amp;quot;plt&amp;quot;.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+    </TextCell>
+    <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="true" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+      <Input></Input>
+      <Output></Output>
+    </GraphCell>
+    <TextCell style="Text">
+      <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:18pt; font-weight:600; text-decoration: underline; color:#000000;">Plot variables&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">Finally you have to plot some results.&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">The important characteristic of the CMOS Inverter is to see how the output transient variables changes as function of input voltages.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">So, you should plot in the same figure, transient voltage of voltage source &amp;quot;voltagesource2&amp;quot; and transient voltage in capacitor.&lt;/span>&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">The variables you need are: &lt;/span>&lt;span style=" font-family:'Times New Roman'; font-size:14pt; font-style:italic; color:#000000;">NameOfVoltageSource&lt;/span>&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">.vTran and &lt;/span>&lt;span style=" font-family:'Times New Roman'; font-size:14pt; font-style:italic; color:#000000;">NameOfCapacitor&lt;/span>&lt;span style=" font-family:'Times New Roman'; font-size:14pt; color:#000000;">.vTran&lt;/span>&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:14pt; color:#000000;">&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+    </TextCell>
+    <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="true" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+      <Input></Input>
+      <Output></Output>
+    </GraphCell>
+    <TextCell style="Text">
+      <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:8pt;">&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Times New Roman'; font-size:12pt; color:#000000;">&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+    </TextCell>
+    <TextCell style="Text">
+      <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:18pt; font-weight:600; text-decoration: underline;">Answers&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+    </TextCell>
+    <GroupCell closed="true">
+      <TextCell style="Text">
+        <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; text-decoration: underline; color:#000000;">Creation of model&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+      </TextCell>
+      <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="false" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+        <Input>model CMOSInverter
+  
+  inner Modelica.SIunits.Frequency freq = 10;
+  
+  Modelica.Electrical.IC.Components.Ground ground1;
+  Modelica.Electrical.IC.Components.Ground ground2;
+  Modelica.Electrical.IC.Components.Ground ground3;
+  Modelica.Electrical.IC.Components.Ground ground4;
+  Modelica.Electrical.IC.Components.Capacitor capacitor1(W = 4e-06, L = 4e-06);
+  Modelica.Electrical.IC.Components.NMOStransistor nmostransistor1(L = 1e-07, W = 4e-06);
+  Modelica.Electrical.IC.Components.PMOStransistor pmostransistor1(L = 1e-07, W = 4e-06);
+  Modelica.Electrical.IC.Sources.VoltageSource voltagesource1(Amplitude = 0, phase = 0, DCVoltage = 1.2, delay = 0, riseTime = 0, fallTime = 0, stepWidth = 0, V0 = 1.2, V1 = 1.2);
+  Modelica.Electrical.IC.Sources.VoltageSource voltagesource2(Amplitude = 1, phase = 0, DCVoltage = 0.6, delay = 0.1, riseTime = 50, fallTime = 50, stepWidth = 200, V0 = 0, V1 = 1.2);
+
+equation 
+  connect(capacitor1.n,ground2.p);
+  connect(capacitor1.p,nmostransistor1.d);
+  connect(pmostransistor1.d,nmostransistor1.d);
+  connect(voltagesource2.n,ground4.p);
+  connect(voltagesource2.p,nmostransistor1.g);
+  connect(pmostransistor1.b,pmostransistor1.s);
+  connect(pmostransistor1.g,nmostransistor1.g);
+  connect(voltagesource1.p,pmostransistor1.s);
+  connect(nmostransistor1.s,ground1.p);
+  connect(voltagesource1.n,ground3.p);
+  connect(nmostransistor1.b,nmostransistor1.s);
+  
+end CMOSInverter;</Input>
+        <Output>{CMOSInverter}</Output>
+      </GraphCell>
+    </GroupCell>
+    <GroupCell closed="true">
+      <TextCell style="Text">
+        <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; text-decoration: underline; color:#000000;">Simulation of model&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+      </TextCell>
+      <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="false" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+        <Input>loadModel(Modelica);
+simulate(CMOSInverter, startTime=0, stopTime=5.5e-7, outputFormat="plt");</Input>
+        <Output>[done]</Output>
+      </GraphCell>
+    </GroupCell>
+    <GroupCell closed="true">
+      <TextCell style="Text">
+        <Text>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;table border="0" style="-qt-table-type: root; margin-top:5px; margin-bottom:5px; margin-left:5px; margin-right:5px;">
+&lt;tr>
+&lt;td style="border: none;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-family:'Times New Roman'; font-size:14pt; text-decoration: underline; color:#000000;">Plot of variables&lt;/span>&lt;/p>&lt;/td>&lt;/tr>&lt;/table>&lt;/body>&lt;/html></Text>
+      </TextCell>
+      <GraphCell AutoX="true" AutoY="true" style="Graph" MinorX="0" Antialiasing="false" MinorY="0" Title="Plot title" LogX="false" LogY="false" MajorX="0" MajorY="0" closed="true" YLabel="y" Area="wEgAAAAAAADAMAAAAAAAAEBZAAAAAAAAQD4AAAAAAAA=" ShowGraph="false" Grid="false" XLabel="x" Legend="false">
+        <Input>plot({voltagesource2.vTran, capacitor1.vTran}, xRange={0,5.5e-7})</Input>
+        <Output></Output>
+      </GraphCell>
+    </GroupCell>
+  </GroupCell>
+</Notebook>
