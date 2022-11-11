@@ -1,0 +1,21 @@
+//--- sugars’ creation rates ------------------------
+Rg = Kg*Ss;
+Kg1 = kg1*exp(-Eg1/(R*Tm));
+Kg2 = kg2*exp(-Eg2/(R*Tm));
+s = arctan((Tm - Tg)*kk)/pi + 0.5;
+Kg = Kg1*(1 - s) + Kg2*s;
+Rgl = kgl*RealActAlfa*Sg;
+Rmal = kamal*RealActAlfa*Sg + kbmal*RealActBeta*Sg;
+Rmlt = kmlt*RealActAlfa*Sg;
+Rdex = kdex*RealActAlfa*Sg;
+R1gl = k1gl*RealActAlfa*D;
+R1mal = k1amal*RealActAlfa*D + k1bmal*RealActBeta*D;
+R1mlt = k1mlt*RealActAlfa*D;
+der(glu) = Rgl + R1gl;
+der(D) = Rdex - R1gl - R1mal - R1mlt;
+der(mal) = Rmal + R1mal;
+der(mlt) = Rmlt + R1mlt;
+der(Sg) = Rg - Rgl - Rmal - Rmlt - Rdex;
+der(Ss) = -Rg;
+der(Ealfa) = -RdeAlfa;
+der(Ebeta) = -RdeBeta;

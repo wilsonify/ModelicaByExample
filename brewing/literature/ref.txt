@@ -1,0 +1,9 @@
+@inproceedings{leva2009control,
+  title={Control system design for the starch mashing phase in the production of beer},
+  author={Leva, Alberto and Donida, Filippo},
+  booktitle={Proceedings of the 7th International Modelica Conference; Como; Italy; 20-22 September 2009},
+  number={43},
+  pages={730--739},
+  year={2009},
+  organization={Link{\"o}ping University Electronic Press}
+}
