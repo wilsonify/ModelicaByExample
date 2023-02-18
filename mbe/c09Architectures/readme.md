@@ -1,0 +1,5 @@
+Architectures in Modelica are system-level models made up of pre-defined, pre-connected subsystems with input and output ports. They offer a high-level view of the system that abstracts the subsystem connections for an easier overall understanding. They promote modularity, are easily reusable and allow for exploration of different configurations.
+
+Modelica's object-oriented approach creates modular, extensible, and easy to maintain models using reusable components with well-defined interfaces. Components are easily swapped for different implementations, which saves time and reduces duplication of effort.
+
+Architectures automatically connect pre-built subsystems, which saves time and allows for easy modification of the system. They are used in many industries, such as automotive, aerospace, and industrial control systems, where manually connecting components and subsystems is time-consuming and error-prone.

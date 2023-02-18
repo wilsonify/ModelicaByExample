@@ -1,0 +1,3 @@
+[submodule "external/ModelicaStandardLibrary"]
+	path = external/ModelicaStandardLibrary
+	url = https://github.com/modelica/ModelicaStandardLibrary.git
