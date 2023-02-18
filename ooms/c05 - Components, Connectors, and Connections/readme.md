@@ -1,0 +1,13 @@
+In recent years, software development has made significant strides towards achieving the same level of reusability and standardization found in the hardware industry. Object-oriented programming has played a key role in this, by enabling the creation of reusable software components that can be easily combined to form complex systems. Frameworks like CORBA, Microsoft COM/DCOM, and JavaBeans have been developed to provide a standardized approach to software component development and integration.
+
+While these component models have had some success in certain application areas, there is still a long way to go before software component reuse can match that of hardware systems. However, the advent of new programming languages and software development tools, along with increased standardization efforts and the growing adoption of open-source software, suggest that the software industry is moving in the right direction towards achieving greater reusability and standardization.
+
+In Modelica, a component is a modular, reusable building block that represents a physical or logical entity. Components can represent a wide variety of systems, from simple resistors and capacitors in electrical circuits to complex multi-domain systems such as hybrid vehicles.
+
+Connectors, on the other hand, provide a way to connect components together in a modular, hierarchical manner. Connectors define a set of input and output variables that can be connected to other connectors, allowing for the exchange of signals, energy, and/or matter between connected components.
+
+A connector class is a template for creating connectors of a certain type, and connector instances are created from these classes to form connections between components. Connector classes can be designed to be expandable, meaning that they can accept any number of input/output signals or connections, or they can be designed to have a fixed number of inputs/outputs.
+
+In Modelica, the connections between components are defined using an equation-based approach, which provides a powerful, flexible way to model the behavior of interconnected systems. The connections between components can be hierarchical, with connectors at different levels of the system connecting to other connectors at the same or different levels.
+
+Overall, components and connectors in Modelica provide a powerful tool for creating modular, reusable models of complex systems, enabling efficient development and analysis of multi-domain systems.

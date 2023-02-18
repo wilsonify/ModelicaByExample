@@ -1,0 +1,3 @@
+This chapter focuses on the class concept in Modelica, which is the most important structuring concept in the language. The chapter begins with a tutorial introduction to the idea of a contract between designer and user and the basics of Modelica classes, using the example of a moon landing model. It excludes inheritance, which is presented in Chapter 4.
+
+The chapter then covers the idea of specialized classes, predefined types in Modelica, and the structure of declarations, both class and variable. It concludes with a presentation of two kinds of lookup in Modelica: nested lookup and instance hierarchy lookup, as well as a description of the typing and subtyping concepts in Modelica and their usage.
