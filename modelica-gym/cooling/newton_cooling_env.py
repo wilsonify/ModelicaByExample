@@ -25,11 +25,16 @@ import gym
 import numpy as np
 import pyfmi
 
+
 class NewtonCoolingEnv(gym.Env):
-    def __init__(self, fmu_path):
+    def __init__(self, fmu_path="NewtonCoolingWithDefaults.fmu"):
         self.fmu = pyfmi.load_fmu(fmu_path)
         self.observation_space = gym.spaces.Box(
-            low=-np.inf, high=np.inf, shape=(1,), dtype=np.float32)
+            low=-np.inf,
+            high=np.inf,
+            shape=(1,),
+            dtype=np.float32
+        )
         self.action_space = gym.spaces.Discrete(3)
         self.dt = 0.01
 
