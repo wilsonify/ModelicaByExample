@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.HeatTransfer.Components;
+within mbe.c08Subsystems.HeatTransfer.Components;
 model Rod "Modeling discretized rod"
   import HTC=Modelica.Thermal.HeatTransfer.Components;
 

@@ -1,3 +1,3 @@
-within ModelicaByExample.Components.ChemicalReactions;
+within mbe.c07Components.ChemicalReactions;
 package Examples "Example models"
 end Examples;

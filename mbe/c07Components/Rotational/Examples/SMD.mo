@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Examples;
+within mbe.c07Components.Rotational.Examples;
 model SMD
   Components.Ground ground annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},

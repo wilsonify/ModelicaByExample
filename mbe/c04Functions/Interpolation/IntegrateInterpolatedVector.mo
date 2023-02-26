@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Interpolation;
+within mbe.c04Functions.Interpolation;
 model IntegrateInterpolatedVector "Exercises the InterpolateVector"
   Real x;
   Real y;

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace.Examples;
+within mbe.c03ArrayEquations.StateSpace.Examples;
 model LotkaVolterra "Lotka-Volterra model in state space form"
   parameter Real alpha=0.1 "Reproduction rate of prey";
   parameter Real beta=0.02 "Mortality rate of predator per prey";

@@ -1,6 +1,6 @@
-within ModelicaByExample.Components.LotkaVolterra.Examples;
+within mbe.c07Components.LotkaVolterra.Examples;
 model ThreeSpecies_Quiescent "Three species in a quiescent state"
-  import ModelicaByExample.Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.SteadyState;
+  import mbe.c07Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.SteadyState;
   extends ThirdSpecies(
     rabbits(init=SteadyState, population(start=30)),
     foxes(init=SteadyState, population(start=2)),

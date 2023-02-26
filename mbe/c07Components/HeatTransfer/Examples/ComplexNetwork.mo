@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer.Examples;
+within mbe.c07Components.HeatTransfer.Examples;
 model ComplexNetwork "A complex heat transfer network"
 
   ThermalCapacitance cap1(C=0.12, T0(displayUnit="degC") = 363.15)

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Integrator
   "This block integrates the input signal to compute the output signal"
   parameter Real y0 "Initial condition";

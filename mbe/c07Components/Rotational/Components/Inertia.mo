@@ -1,7 +1,7 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model Inertia "A rotational inertia model"
   parameter Modelica.SIunits.Inertia J;
-  extends ModelicaByExample.Components.Rotational.Interfaces.TwoFlange;
+  extends mbe.c07Components.Rotational.Interfaces.TwoFlange;
   Modelica.SIunits.AngularVelocity w "Angular Velocity"
     annotation(Dialog(group="Initialization", showStartAttribute=true));
   Modelica.SIunits.Angle phi "Angle"

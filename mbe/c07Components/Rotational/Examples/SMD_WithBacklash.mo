@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Examples;
+within mbe.c07Components.Rotational.Examples;
 model SMD_WithBacklash "The spring-mass-damper system with backlash"
   extends SMD(inertia2(phi(fixed=true, start=0)), inertia1(phi(fixed=true, start=0), w(start=5)));
   Components.Backlash backlash(c=1000, b(displayUnit="rad") = 0.5)

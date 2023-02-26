@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Examples;
+within mbe.c07Components.BlockDiagrams.Examples;
 model MultiDomainControl
   "Mixing thermal components with blocks for sensing, actuation and control"
 

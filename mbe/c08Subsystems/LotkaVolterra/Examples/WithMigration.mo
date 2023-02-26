@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.LotkaVolterra.Examples;
+within mbe.c08Subsystems.LotkaVolterra.Examples;
 model WithMigration "Connect populations by migration"
   extends InitiallyDifferent;
   Components.Migration migrate_AB "Migration from region A to region B"

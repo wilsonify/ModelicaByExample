@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 partial model SystemArchitecture
   "A system architecture built from subsystem interfaces"
 

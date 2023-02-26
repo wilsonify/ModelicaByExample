@@ -3,7 +3,7 @@ In this example, the FMU represents a simple bouncing ball model,
 with a single input (representing an external force applied to the ball)
 and a single output (representing the position of the ball).
 """
-import gym
+import gymnasium as gym
 import numpy as np
 import pyfmi
 

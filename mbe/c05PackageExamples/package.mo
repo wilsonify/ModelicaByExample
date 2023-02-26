@@ -1,3 +1,3 @@
-within ModelicaByExample;
-package PackageExamples "Examples of using packages"
-end PackageExamples;
+within mbe;
+package c05PackageExamples "Examples of using packages"
+end c05PackageExamples;

@@ -118,10 +118,10 @@
 <font color="blue">protected </font>
   <A HREF="BookExamples_Chapter6_Chemistry_Types.html#BookExamples.Chapter6.Chemistry.Types.MolarFlowRate"
 >Types.MolarFlowRate</A> reaction_rate <font color="darkgreen">&quot;Reaction rate&quot;</font>;
-  <font color="blue">parameter </font>Real mult[nspecies]=<font color="red">Chemistry.Functions.CalcMultiplier</font>(nspecies,
+  <font color="blue">parameter </font>Real mult[nspecies]=<font color="red">Chemistry.c04Functions.CalcMultiplier</font>(nspecies,
       reactants, products);
 <font color="blue">equation </font>
-  reaction_rate = <font color="red">Chemistry.Functions.CalcReactionRate</font>(nspecies, k, p.c,
+  reaction_rate = <font color="red">Chemistry.c04Functions.CalcReactionRate</font>(nspecies, k, p.c,
     reactants);
   p.r = mult*reaction_rate*v;
 <font color="blue">end </font>Reaction;

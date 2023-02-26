@@ -1,4 +1,4 @@
-within ModelicaByExample.Connectors;
+within mbe.c06Connectors;
 package SimpleDomains "Examples of connectors for simple domains"
   connector Electrical
      Modelica.SIunits.Voltage v;

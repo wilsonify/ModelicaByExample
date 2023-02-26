@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.ConfusingEquations;
+within mbe.c07Components.LotkaVolterra.ConfusingEquations;
 model Reproduction "A model of reproduction"
   Interfaces.Species species
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

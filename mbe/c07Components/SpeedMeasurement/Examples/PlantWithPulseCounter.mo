@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Examples;
+within mbe.c07Components.SpeedMeasurement.Examples;
 model PlantWithPulseCounter
   "Comparison between ideal and pulse counting sensor"
   extends Plant;

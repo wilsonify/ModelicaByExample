@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.PowerSupply.Components;
+within mbe.c08Subsystems.PowerSupply.Components;
 model BasicPowerSupply "Power supply with transformer and rectifier"
   import Modelica.Electrical.Analog;
   parameter Modelica.SIunits.Capacitance C=1e-2

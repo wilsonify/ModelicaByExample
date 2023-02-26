@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Interfaces;
+within mbe.c09Architectures.ThermalControl.Interfaces;
 partial model Sensor "Sensor subsystem interface"
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a room
     "Thermal connection to room"

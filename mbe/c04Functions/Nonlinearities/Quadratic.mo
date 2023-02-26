@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Nonlinearities;
+within mbe.c04Functions.Nonlinearities;
 function Quadratic "A quadratic function"
   input Real a "2nd order coefficient";
   input Real b "1st order coefficient";

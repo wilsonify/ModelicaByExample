@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.VerboseApproach;
+within mbe.c07Components.Rotational.VerboseApproach;
 model Damper "Rotational damper without inheritance"
   parameter Modelica.SIunits.RotationalDampingConstant d;
   Modelica.Mechanics.Rotational.Interfaces.Flange_a flange_a

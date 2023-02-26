@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.DryApproach;
+within mbe.c07Components.Electrical.DryApproach;
 model StepVoltage "A DRY step voltage source"
   parameter Modelica.SIunits.Voltage V0;
   parameter Modelica.SIunits.Voltage Vf;

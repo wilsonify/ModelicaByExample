@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Polynomials;
+within mbe.c04Functions.Polynomials;
 function PolynomialFirstDerivative
   "First derivative of the function Polynomial"
   input Real x;

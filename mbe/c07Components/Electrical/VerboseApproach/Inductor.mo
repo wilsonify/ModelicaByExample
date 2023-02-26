@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.VerboseApproach;
+within mbe.c07Components.Electrical.VerboseApproach;
 model Inductor "An inductor model"
   parameter Modelica.SIunits.Inductance L;
   Modelica.Electrical.Analog.Interfaces.PositivePin p

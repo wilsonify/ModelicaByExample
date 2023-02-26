@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Interfaces;
+within mbe.c07Components.LotkaVolterra.Interfaces;
 partial model SinkOrSource "Used to describe single species effects"
 
   Species species

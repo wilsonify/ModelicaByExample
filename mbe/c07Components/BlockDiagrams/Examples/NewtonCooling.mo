@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Examples;
+within mbe.c07Components.BlockDiagrams.Examples;
 model NewtonCooling "Newton cooling system modeled with blocks"
   import Modelica.SIunits.Conversions.from_degC;
   parameter Real h = 0.7 "Convection coefficient";

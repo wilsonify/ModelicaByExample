@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 model IdealTemperatureSensor "An ideal (no thermal time-constant) sensor"
   extends Interfaces.SO;
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_a node

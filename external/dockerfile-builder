@@ -1,0 +1,7 @@
+FROM mbe-base:latest
+COPY . /usr/src/app
+WORKDIR /usr/src/app/sundials
+RUN mkdir build && cd build && cmake .. && make install
+
+WORKDIR /usr/src/app/Assimulo
+RUN python setup.py install

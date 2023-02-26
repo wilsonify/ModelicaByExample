@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Interfaces;
+within mbe.c09Architectures.ThermalControl.Interfaces;
 partial model Actuator_WithExpandableBus
   "Actuator subsystem interface with an expandable bus"
 

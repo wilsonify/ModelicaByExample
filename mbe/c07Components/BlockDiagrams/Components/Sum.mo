@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Sum "Block that sums its inputs"
   extends Interfaces.MISO;
 equation

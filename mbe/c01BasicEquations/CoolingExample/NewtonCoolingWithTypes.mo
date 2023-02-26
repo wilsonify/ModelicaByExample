@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.CoolingExample;
+within mbe.c01BasicEquations.CoolingExample;
 model NewtonCoolingWithTypes "Cooling example with physical types"
   // Types
   type Temperature=Real(unit="K", min=0);

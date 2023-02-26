@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Counter;
+within mbe.c02DiscreteBehavior.Counter;
 model Counter "Counting samples"
   type Time = Real(unit="s");
   parameter Time interval=100e-3;

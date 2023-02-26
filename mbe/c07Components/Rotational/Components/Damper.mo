@@ -1,7 +1,7 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model Damper "A rotational damper"
   parameter Modelica.SIunits.RotationalDampingConstant d;
-  extends ModelicaByExample.Components.Rotational.Interfaces.Compliant;
+  extends mbe.c07Components.Rotational.Interfaces.Compliant;
 equation
   tau = d*der(phi_rel) "Damping relationship";
   annotation (Icon(graphics={

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer.Examples;
+within mbe.c07Components.HeatTransfer.Examples;
 model Adiabatic "A model without any heat transfer"
   ThermalCapacitance cap(C=0.12, T0(displayUnit="K") = 363.15)
     "Thermal capacitance component"

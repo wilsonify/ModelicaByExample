@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Components;
+within mbe.c07Components.LotkaVolterra.Components;
 model Predation "Model of predation"
   extends Interfaces.Interaction;
   parameter Real beta "Prey (Species A) consumed";

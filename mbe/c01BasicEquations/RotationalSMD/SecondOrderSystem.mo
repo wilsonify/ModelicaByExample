@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.RotationalSMD;
+within mbe.c01BasicEquations.RotationalSMD;
 model SecondOrderSystem "A second order rotational system"
   type Angle=Real(unit="rad");
   type AngularVelocity=Real(unit="rad/s");

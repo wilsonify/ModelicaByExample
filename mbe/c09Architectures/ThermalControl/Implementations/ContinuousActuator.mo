@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ContinuousActuator
   "Actuator taking continuous heat command from expandable bus"
   extends Interfaces.Actuator_WithExpandableBus;

@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Interfaces;
+within mbe.c09Architectures.SensorComparison.Interfaces;
 partial model Plant "Interface for plant model"
   Modelica.Mechanics.Rotational.Interfaces.Flange_b flange_b
     "Output shaft of plant"

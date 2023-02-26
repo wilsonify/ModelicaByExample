@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer;
+within mbe.c07Components.HeatTransfer;
 model Convection "Modeling convection between port_a and port_b"
   parameter Modelica.SIunits.CoefficientOfHeatTransfer h;
   parameter Modelica.SIunits.Area A;

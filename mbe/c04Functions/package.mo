@@ -1,3 +1,3 @@
-within ModelicaByExample;
-package Functions "Examples of using functions in various ways in Modelica"
-end Functions;
+within mbe;
+package c04Functions "Examples of using c04Functions in various ways in Modelica"
+end c04Functions;

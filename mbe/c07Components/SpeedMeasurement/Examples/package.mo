@@ -1,3 +1,3 @@
-within ModelicaByExample.Components.SpeedMeasurement;
+within mbe.c07Components.SpeedMeasurement;
 package Examples
 end Examples;

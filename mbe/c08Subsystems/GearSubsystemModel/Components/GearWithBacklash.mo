@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.GearSubsystemModel.Components;
+within mbe.c08Subsystems.GearSubsystemModel.Components;
 model GearWithBacklash "A subsystem model for a gear with backlash"
   extends Modelica.Mechanics.Rotational.Icons.Gear;
   import Modelica.Mechanics.Rotational.Components.*;

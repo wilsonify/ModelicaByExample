@@ -21,13 +21,13 @@ between the current temperature and 20, to encourage the agent to cool the syste
 The is_done method returns True if the absolute difference between the current temperature and 20 is less than 0.1,
 signaling the end of the episode.
 """
-import gym
+import gymnasium as gym
 import numpy as np
 import pyfmi
 
 
 class NewtonCoolingEnv(gym.Env):
-    def __init__(self, fmu_path="NewtonCoolingWithDefaults.fmu"):
+    def __init__(self, fmu_path="mbe.c01BasicEquations.CoolingExample.NewtonCoolingWithTypes.fmu"):
         self.fmu = pyfmi.load_fmu(fmu_path)
         self.observation_space = gym.spaces.Box(
             low=-np.inf,
@@ -58,9 +58,7 @@ class NewtonCoolingEnv(gym.Env):
         return np.array([self.fmu.get('T')])
 
     def compute_reward(self):
-        T = self.fmu.get('T')
-        return -abs(T - 20)
+        return -abs(self.fmu.get('T') - 20)
 
     def is_done(self):
-        T = self.fmu.get('T')
-        return abs(T - 20) < 0.1
+        return abs(self.fmu.get('T') - 20) < 0.1

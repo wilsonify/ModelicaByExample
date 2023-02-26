@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model SynchronizedSampling "A simple way to synchronize sampling"
   Integer tick "A clock counter";
   Real x, y;

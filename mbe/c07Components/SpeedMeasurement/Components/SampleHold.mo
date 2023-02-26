@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Components;
+within mbe.c07Components.SpeedMeasurement.Components;
 model SampleHold "A sample-hold ideal speed sensor"
   extends Interfaces.SpeedSensor;
   parameter Modelica.SIunits.Time sample_time;

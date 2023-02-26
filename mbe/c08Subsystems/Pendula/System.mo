@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.Pendula;
+within mbe.c08Subsystems.Pendula;
 model System "A system of pendula"
   import Modelica.Constants.g_n;
   import Modelica.Constants.pi;

@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Examples;
+within mbe.c09Architectures.ThermalControl.Examples;
 model OnOffVariant "Variation with on-off control"
   extends ExpandableModel(
     redeclare replaceable

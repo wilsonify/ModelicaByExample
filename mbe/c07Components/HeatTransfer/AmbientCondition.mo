@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer;
+within mbe.c07Components.HeatTransfer;
 model AmbientCondition
   "Model of an \"infinite reservoir\" at some ambient temperature"
   parameter Modelica.SIunits.Temperature T_amb "Ambient temperature";

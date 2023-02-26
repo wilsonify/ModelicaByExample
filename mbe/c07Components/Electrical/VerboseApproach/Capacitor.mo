@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.VerboseApproach;
+within mbe.c07Components.Electrical.VerboseApproach;
 model Capacitor "A capacitor model"
   parameter Modelica.SIunits.Capacitance C;
   Modelica.Electrical.Analog.Interfaces.PositivePin p

@@ -1,4 +1,4 @@
-within ModelicaByExample.Connectors;
+within mbe.c06Connectors;
 package Graphics
   connector PositivePin
      Modelica.SIunits.Voltage v;
@@ -31,7 +31,7 @@ package Graphics
 <p>This connector is used to represent the &quot;positive&quot; pins on
 electrical components.  This does not imply that the voltage at this pin needs
 to be positive or even greater than voltages on <a
-href=\"modelica://ModelicaByExample.Connectors.Graphics.NegativePin\">
+href=\"modelica://mbe.c06Connectors.Graphics.NegativePin\">
 &quot;negative&quot; pins</a>.  It is simply a convention used to distinguish
 different connectors on components (particularly those with only two pins).</p>
 </html>"));
@@ -61,9 +61,9 @@ different connectors on components (particularly those with only two pins).</p>
             textString="%name")}),
       Documentation(info="<html>
 <p>This pin and
-<a href=\"modelica://ModelicaByExample.Connectors.Graphics.PositivePin\">
+<a href=\"modelica://mbe.c06Connectors.Graphics.PositivePin\">
 its counterpart</a> are documented in
-<a href=\"modelica://ModelicaByExample.Connectors.Graphics.PositivePin\">
+<a href=\"modelica://mbe.c06Connectors.Graphics.PositivePin\">
 PositivePin</a>.</p>
 </html>"));
   end NegativePin;

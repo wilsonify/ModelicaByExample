@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Polynomials;
+within mbe.c04Functions.Polynomials;
 model EvaluationTest1 "Model that evaluates a polynomial"
   Real yf;
   Real yp;

@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Accuracy;
+within mbe.c02DiscreteBehavior.Accuracy;
 model WithEvents "Integrate with events"
   parameter Real freq = 1.0;
   Real x(start=0);

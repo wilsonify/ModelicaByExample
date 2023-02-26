@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 partial block SO "A single output (SO) partial model"
 
   RealOutput y "Output signal" annotation (Placement(transformation(extent={{90,

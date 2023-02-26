@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model PID_Controller "Controller subsystem implemented using a PID controller"
   extends Interfaces.Controller;
   parameter Real k "Gain of controller";

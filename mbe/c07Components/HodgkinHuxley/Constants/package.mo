@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HodgkinHuxley;
+within mbe.c07Components.HodgkinHuxley;
 package Constants "Various physical constants of cell membranes"
   constant Modelica.SIunits.Voltage E_Na = 50e-3 "Sodium potential";
   constant Modelica.SIunits.Voltage E_K = -77e-3 "Potassium potential";

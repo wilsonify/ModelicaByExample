@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.SimpleExample;
+within mbe.c01BasicEquations.SimpleExample;
 model FirstOrder
   Real x;
 equation

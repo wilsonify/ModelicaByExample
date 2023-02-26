@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.ChemicalReactions.ABX.Interfaces;
+within mbe.c07Components.ChemicalReactions.ABX.Interfaces;
 partial model Reaction "A reaction potentially involving species A, B and X"
   parameter Real k "Reaction coefficient";
   Mixture mixture

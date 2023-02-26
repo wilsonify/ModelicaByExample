@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.ChemicalReactions;
+within mbe.c03ArrayEquations.ChemicalReactions;
 model Reactions_NoArrays "Modeling a chemical reaction without arrays"
   Real cA;
   Real cB;

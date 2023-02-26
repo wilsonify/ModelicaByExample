@@ -1,6 +1,6 @@
-within ModelicaByExample.DiscreteBehavior.SpeedMeasurement;
+within mbe.c02DiscreteBehavior.SpeedMeasurement;
 model SampleAndHold "Measure speed and hold"
-  extends BasicEquations.RotationalSMD.SecondOrderSystem;
+  extends c01BasicEquations.RotationalSMD.SecondOrderSystem;
   parameter Real sample_time(unit="s")=0.125;
   discrete Real omega1_measured;
 equation

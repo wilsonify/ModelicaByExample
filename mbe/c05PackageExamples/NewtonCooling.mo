@@ -1,4 +1,4 @@
-within ModelicaByExample.PackageExamples;
+within mbe.c05PackageExamples;
 model NewtonCooling
   "Cooling example importing physical types from the Modelica Standard Library"
   import Modelica.SIunits.Temperature;

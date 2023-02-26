@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.ChemicalReactions.Examples;
+within mbe.c07Components.ChemicalReactions.Examples;
 model ABX_System "Model of simple two reaction system"
   ABX.Components.Solution solution(C(each fixed=true, start={1,1,0}))
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

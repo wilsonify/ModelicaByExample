@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 model Variant2 "Adds PID control and realistic actuator subsystems"
   extends Variant1(
       redeclare replaceable Implementation.PID_Controller controller(

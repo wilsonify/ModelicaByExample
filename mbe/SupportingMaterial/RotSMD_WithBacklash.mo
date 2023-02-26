@@ -1,4 +1,4 @@
-within ModelicaByExample.SupportingMaterial;
+within mbe.SupportingMaterial;
 model RotSMD_WithBacklash "Inserting a backlash element"
   extends RotSMD(J2(phi(fixed=true, start=0), w(fixed=true, start=0)), J1(w(
           fixed=true, start=5)));

@@ -1,6 +1,6 @@
-within ModelicaByExample.DiscreteBehavior.SpeedMeasurement;
+within mbe.c02DiscreteBehavior.SpeedMeasurement;
 model IntervalMeasure "Measure interval between teeth"
-  extends BasicEquations.RotationalSMD.SecondOrderSystem;
+  extends c01BasicEquations.RotationalSMD.SecondOrderSystem;
   parameter Integer teeth=200;
   parameter Real tooth_angle(unit="rad")=2*3.14159/teeth;
   Real next_phi, prev_phi;

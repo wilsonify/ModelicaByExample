@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Examples;
+within mbe.c07Components.SpeedMeasurement.Examples;
 model PlantWithSampleHold "Comparison between ideal and sample-hold sensor"
   extends Plant;
   Components.SampleHold sampleHold(sample_time=0.125)

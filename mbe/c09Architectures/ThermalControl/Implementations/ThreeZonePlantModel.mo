@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ThreeZonePlantModel "A plant model with three zones"
   extends Interfaces.PlantModel;
   parameter Modelica.SIunits.HeatCapacity C "Zone capacitance";

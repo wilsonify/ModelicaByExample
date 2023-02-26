@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Interfaces;
+within mbe.c09Architectures.SensorComparison.Interfaces;
 partial model Controller "Interface for controller subsystem"
   Modelica.Blocks.Interfaces.RealInput setpoint "Desired system response"
     annotation (Placement(transformation(

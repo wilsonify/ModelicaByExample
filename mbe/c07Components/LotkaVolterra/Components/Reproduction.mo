@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Components;
+within mbe.c07Components.LotkaVolterra.Components;
 model Reproduction "Model of reproduction"
   extends Interfaces.SinkOrSource;
   parameter Real alpha "Birth rate proportionality constant";

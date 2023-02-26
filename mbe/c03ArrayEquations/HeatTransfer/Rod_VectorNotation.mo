@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.HeatTransfer;
+within mbe.c03ArrayEquations.HeatTransfer;
 model Rod_VectorNotation
   "Modeling heat conduction in a rod using vector notation"
   type Temperature=Real(unit="K", min=0);

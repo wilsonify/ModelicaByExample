@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ExpandablePIControl "PI controller implemented with an expandable bus"
   extends Interfaces.ControlSystem_WithExpandableBus;
   parameter Real setpoint "Desired temperature";

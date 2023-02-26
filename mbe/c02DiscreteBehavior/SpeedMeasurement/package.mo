@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior;
+within mbe.c02DiscreteBehavior;
 package SpeedMeasurement
 
 end SpeedMeasurement;

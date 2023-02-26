@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.DryApproach;
+within mbe.c07Components.Electrical.DryApproach;
 model Resistor "A DRY resistor model"
   parameter Modelica.SIunits.Resistance R;
   extends TwoPin;

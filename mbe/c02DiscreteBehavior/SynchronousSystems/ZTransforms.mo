@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model ZTransforms "Using der with discrete signals"
   Real x;
   Real v;

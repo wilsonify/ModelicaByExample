@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Components;
+within mbe.c07Components.LotkaVolterra.Components;
 model Starvation "Model of starvation"
   extends Interfaces.SinkOrSource;
   parameter Real gamma "Starvation coefficient";
@@ -10,5 +10,5 @@ equation
           lineColor={0,0,0},
           fillColor={255,255,255},
           fillPattern=FillPattern.Solid), Bitmap(extent={{-98,86},{98,-98}},
-            fileName="modelica://ModelicaByExample/Resources/Images/death.png")}));
+            fileName="modelica://mbe/Resources/Images/death.png")}));
 end Starvation;

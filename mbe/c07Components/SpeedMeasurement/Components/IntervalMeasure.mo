@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Components;
+within mbe.c07Components.SpeedMeasurement.Components;
 model IntervalMeasure
   "Estimate speed by measuring interval between encoder teeth"
   extends Interfaces.SpeedSensor;

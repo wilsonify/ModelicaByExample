@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.ChemicalReactions;
+within mbe.c03ArrayEquations.ChemicalReactions;
 model Reactions_Array "Modeling a chemical reaction with arrays"
   Real C[3];
   parameter Real k[3] = {0.1, 0.1, 10};

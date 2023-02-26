@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 model HierarchicalSystem "Organzing components into subsystems"
   Implementation.BasicPlant plant
     annotation (Placement(transformation(extent={{-10,-40},{10,-20}})));

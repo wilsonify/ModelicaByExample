@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model SamplingWithClocks "Using clocks to sub and super sample"
   Real x, y, z, w;
 equation

@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.PowerSupply.Examples;
+within mbe.c08Subsystems.PowerSupply.Examples;
 model AdditionalLoad "A circuit with an additional transient load"
   extends SubsystemCircuit;
   Modelica.Electrical.Analog.Basic.Resistor add_load(R=10)

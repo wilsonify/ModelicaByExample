@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Interfaces;
+within mbe.c09Architectures.ThermalControl.Interfaces;
 partial model Actuator "Actuator subsystem interface"
 
   Modelica.Blocks.Interfaces.RealInput heat "Heating command" annotation (

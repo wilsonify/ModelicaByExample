@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SwitchedRLC;
+within mbe.c02DiscreteBehavior.SwitchedRLC;
 model SwitchedRLC "An RLC circuit with a switch"
   type Voltage=Real(unit="V");
   type Current=Real(unit="A");

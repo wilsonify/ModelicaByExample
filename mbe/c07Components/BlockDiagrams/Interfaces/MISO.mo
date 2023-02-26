@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 partial block MISO "A multiple input, single output (MISO) partial block"
   parameter Integer nin;
   extends SO;

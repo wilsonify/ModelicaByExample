@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer;
+within mbe.c07Components.HeatTransfer;
 model ConvectionToAmbient "An overly specialized model of convection"
   parameter Modelica.SIunits.CoefficientOfHeatTransfer h;
   parameter Modelica.SIunits.Area A;

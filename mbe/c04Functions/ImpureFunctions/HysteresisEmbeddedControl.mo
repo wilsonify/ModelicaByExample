@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.ImpureFunctions;
+within mbe.c04Functions.ImpureFunctions;
 model HysteresisEmbeddedControl "A control strategy that uses embedded C code"
   type HeatCapacitance=Real(unit="J/K");
   type Temperature=Real(unit="K");

@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model HoldOperator "Demonstrate the hold operator"
   Real x, y, z;
 equation

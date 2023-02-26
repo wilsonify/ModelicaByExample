@@ -1,16 +1,16 @@
-within ModelicaByExample.Architectures.ThermalControl.Bogus;
+within mbe.c09Architectures.ThermalControl.Bogus;
 partial model BusBasedArchitecture
   "A thermal architecture with bus connectivity"
   replaceable Interfaces.PlantModel plant
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));
   replaceable
-    ModelicaByExample.Architectures.ThermalControl.Bogus.ControlSystem_WithBus
+    mbe.c09Architectures.ThermalControl.Bogus.ControlSystem_WithBus
     controller annotation (Placement(transformation(extent={{-10,50},{10,70}})));
   replaceable
-    ModelicaByExample.Architectures.ThermalControl.Bogus.Actuator_WithBus
+    mbe.c09Architectures.ThermalControl.Bogus.Actuator_WithBus
     actuator annotation (Placement(transformation(extent={{-50,-10},{-30,10}})));
   replaceable
-    ModelicaByExample.Architectures.ThermalControl.Bogus.Sensor_WithBus sensor
+    mbe.c09Architectures.ThermalControl.Bogus.Sensor_WithBus sensor
     annotation (Placement(transformation(extent={{30,-10},{50,10}})));
 equation
   connect(actuator.furnace, plant.furnace) annotation (Line(

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace.Examples;
+within mbe.c03ArrayEquations.StateSpace.Examples;
 model NewtonCooling "NewtonCooling model in state space form"
   parameter Real T_inf=27.5 "Ambient temperature";
   parameter Real T0=20 "Initial temperature";

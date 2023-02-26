@@ -1,3 +1,3 @@
-within ModelicaByExample;
-package BasicEquations
-end BasicEquations;
+within mbe;
+package c01BasicEquations
+end c01BasicEquations;

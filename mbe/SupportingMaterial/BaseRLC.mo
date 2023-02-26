@@ -1,4 +1,4 @@
-within ModelicaByExample.SupportingMaterial;
+within mbe.SupportingMaterial;
 model BaseRLC
   Modelica.Electrical.Analog.Basic.Ground ground
     annotation (Placement(transformation(extent={{-10,-60},{10,-40}})));

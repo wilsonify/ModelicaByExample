@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model SubsamplingWithIntegers "Use integers to implement subsampling"
   Integer tick "Clock counter";
   Real x, y, z;

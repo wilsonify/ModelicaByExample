@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Interfaces;
+within mbe.c09Architectures.SensorComparison.Interfaces;
 partial model Actuator "Interface for actuator"
   Modelica.Mechanics.Rotational.Interfaces.Flange_b shaft "Output shaft"
     annotation (Placement(transformation(extent={{90,-10},{110,10}})));

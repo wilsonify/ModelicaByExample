@@ -1,4 +1,4 @@
-within ModelicaByExample.Connectors;
+within mbe.c06Connectors;
 package FluidConnectors "Examples of fluid connectors"
   connector Incompressible
     Modelica.SIunits.Pressure p;

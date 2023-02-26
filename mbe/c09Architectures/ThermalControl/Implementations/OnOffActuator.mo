@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model OnOffActuator "On-off actuator implemented with an expandable bus"
   extends Interfaces.Actuator_WithExpandableBus;
   parameter Real heating_capacity "Heating capacity of actuator";

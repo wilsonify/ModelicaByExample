@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace.Examples;
+within mbe.c03ArrayEquations.StateSpace.Examples;
 model RotationalSMD
   "State space version of a rotational spring-mass-damper system"
   parameter Real J1=0.4;

@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.LotkaVolterra;
+within mbe.c01BasicEquations.LotkaVolterra;
 model QuiescentModelWithInheritance "Steady state model with inheritance"
   extends ClassicModel;
 initial equation

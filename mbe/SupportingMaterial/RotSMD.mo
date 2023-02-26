@@ -1,4 +1,4 @@
-within ModelicaByExample.SupportingMaterial;
+within mbe.SupportingMaterial;
 model RotSMD
   Modelica.Mechanics.Rotational.Components.Fixed ground annotation (Placement(
         transformation(

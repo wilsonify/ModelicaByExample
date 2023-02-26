@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 partial block SI "A single input (SI) partial model"
   RealInput u "Input signal"
     annotation (Placement(transformation(extent={{-120,-10},{-100,10}})));

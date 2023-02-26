@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Polynomials;
+within mbe.c04Functions.Polynomials;
 function LineWithProtected "The Line function with protected variables"
   input Real x     "Independent variable";
   input Real p0[2] "Coordinates for one point on the line";

@@ -1,6 +1,6 @@
-within ModelicaByExample.Components.Rotational.Interfaces;
+within mbe.c07Components.Rotational.Interfaces;
 partial model Compliant "A compliant rotational component"
-  extends ModelicaByExample.Components.Rotational.Interfaces.TwoFlange;
+  extends mbe.c07Components.Rotational.Interfaces.TwoFlange;
 protected
   Modelica.SIunits.Torque tau;
 equation

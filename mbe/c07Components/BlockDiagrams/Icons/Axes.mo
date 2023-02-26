@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Icons;
+within mbe.c07Components.BlockDiagrams.Icons;
 block Axes "Introduces graphics for independent and dependent axes"
 
   annotation ( Icon(graphics={

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Components;
+within mbe.c07Components.LotkaVolterra.Components;
 model RegionalPopulation "Population of animals in a specific region"
   encapsulated type InitializationOptions = enumeration(
       Free "No initial conditions",

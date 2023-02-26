@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.ChemicalReactions.Interfaces;
+within mbe.c07Components.ChemicalReactions.Interfaces;
 partial model ABX_Reaction
   "A reaction potentially involving species A, B and X"
   parameter Real k "Reaction coefficient";

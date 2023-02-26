@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 partial block DISO "A double input, single output (DISO) partial model"
   extends SO;
   RealInput u1 "Input signal 1" annotation (Placement(transformation(extent={{-120,

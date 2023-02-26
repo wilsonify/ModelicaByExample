@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Polynomials;
+within mbe.c04Functions.Polynomials;
 function PolynomialWithDerivative
   "Create a generic polynomial from coefficients (with derivative information)"
   input Real x     "Independent variable";

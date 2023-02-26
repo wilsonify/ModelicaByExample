@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Constant "A constant source"
   parameter Real k "Constant output value";
   extends Icons.Axes;

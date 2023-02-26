@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model ConfigurableGear
   "An ideal non-reversing gear which can be free or grounded"
   parameter Real ratio "Ratio of phi_a/phi_b";

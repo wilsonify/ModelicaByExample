@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Polynomials;
+within mbe.c04Functions.Polynomials;
 model Differentiation2 "Model that differentiates a function using derivative annotation"
   Real yf;
   Real yp;

@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Nonlinearities;
+within mbe.c04Functions.Nonlinearities;
 model ExplicitEvaluation
   "Model that evaluates the quadratic function explicitly"
   Real y;

@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.HeatTransfer.Examples;
+within mbe.c08Subsystems.HeatTransfer.Examples;
 model ThreeSegmentRod "Modeling a heat transfer using 3 segment rod subsystem"
   Modelica.Thermal.HeatTransfer.Sources.PrescribedHeatFlow heating
     "Heating actuator"

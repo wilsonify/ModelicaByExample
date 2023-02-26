@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model TemperatureSensor "Temperature sensor using an expandable bus"
   extends Interfaces.Sensor_WithExpandableBus;
 protected

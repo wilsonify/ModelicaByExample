@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Product "Block that outputs the product of its inputs"
   extends Interfaces.MISO;
 equation

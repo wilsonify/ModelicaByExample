@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.HeatTransfer;
+within mbe.c03ArrayEquations.HeatTransfer;
 model Rod_ForLoop "Modeling heat conduction in a rod using a for loop"
   type Temperature=Real(unit="K", min=0);
   type ConvectionCoefficient=Real(unit="W/K", min=0);

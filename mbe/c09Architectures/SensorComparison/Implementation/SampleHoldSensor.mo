@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model SampleHoldSensor "Implementation of a sample hold sensor"
   parameter Modelica.SIunits.Time sample_time(min=Modelica.Constants.eps);
   Modelica.Mechanics.Rotational.Interfaces.Flange_a shaft

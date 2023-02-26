@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Hysteresis;
+within mbe.c02DiscreteBehavior.Hysteresis;
 model ChatteringControl "A control strategy that will 'chatter'"
   type HeatCapacitance=Real(unit="J/K");
   type Temperature=Real(unit="K");

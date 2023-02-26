@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model OnOffControl_WithHysteresis
   "An example of an on-off controller with hysteresis"
 

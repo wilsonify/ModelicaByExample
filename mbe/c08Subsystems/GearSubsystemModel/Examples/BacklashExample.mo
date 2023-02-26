@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.GearSubsystemModel.Examples;
+within mbe.c08Subsystems.GearSubsystemModel.Examples;
 model BacklashExample "An example demonstrating the GearWithBacklash model"
   Components.GearWithBacklash gearWithBacklash(
     c=1000,

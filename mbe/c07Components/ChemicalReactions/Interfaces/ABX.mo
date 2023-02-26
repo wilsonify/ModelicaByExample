@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.ChemicalReactions.Interfaces;
+within mbe.c07Components.ChemicalReactions.Interfaces;
 connector ABX
 
   Modelica.SIunits.Concentration C[ABX_Species];

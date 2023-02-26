@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model Ground "Mechanical ground"
   Modelica.Mechanics.Rotational.Interfaces.Flange_a flange_a
     annotation (Placement(transformation(extent={{-10,50},{10,70}})));

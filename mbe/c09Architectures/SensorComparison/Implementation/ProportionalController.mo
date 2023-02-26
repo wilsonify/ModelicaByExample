@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model ProportionalController "Implementation of a proportional controller"
   parameter Real k=20 "Controller gain";
   Modelica.Blocks.Interfaces.RealInput setpoint "Desired system response"

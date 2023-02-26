@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Decay;
+within mbe.c02DiscreteBehavior.Decay;
 model Decay5
   Real x;
 initial equation

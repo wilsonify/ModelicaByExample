@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Components;
+within mbe.c07Components.SpeedMeasurement.Components;
 model IdealSensor "An ideal sensor with no artifact"
   extends Interfaces.SpeedSensor;
 equation

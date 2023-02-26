@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Interpolation;
+within mbe.c04Functions.Interpolation;
 function InterpolateVector "Interpolate a function defined by a vector"
   input Real x         "Independent variable";
   input Real ybar[:,2] "Interpolation data";

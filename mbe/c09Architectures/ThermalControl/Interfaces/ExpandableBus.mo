@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Interfaces;
+within mbe.c09Architectures.ThermalControl.Interfaces;
 expandable connector ExpandableBus "An example of an expandable bus connector"
 
   annotation (Icon(graphics={

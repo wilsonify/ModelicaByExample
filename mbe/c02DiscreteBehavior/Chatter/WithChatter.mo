@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Chatter;
+within mbe.c02DiscreteBehavior.Chatter;
 model WithChatter
   Real x;
 initial equation

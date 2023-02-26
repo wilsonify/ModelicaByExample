@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ConventionalPIControl "PIControl using conventional architecture"
   extends Interfaces.ControlSystem;
   parameter Real setpoint "Desired temperature";

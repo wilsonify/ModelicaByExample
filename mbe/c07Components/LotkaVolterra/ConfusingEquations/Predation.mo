@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.ConfusingEquations;
+within mbe.c07Components.LotkaVolterra.ConfusingEquations;
 model Predation "Model of predation between two species"
   parameter Real beta "Prey consume";
   parameter Real delta "Predators fed";

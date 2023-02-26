@@ -1,3 +1,28 @@
 [submodule "external/ModelicaStandardLibrary"]
 	path = external/ModelicaStandardLibrary
 	url = https://github.com/modelica/ModelicaStandardLibrary.git
+
+[submodule "external/fmi-library"]
+	path = external/fmi-library
+	url = https://github.com/modelon-community/fmi-library.git
+[submodule "external/OpenModelica"]
+	path = external/OpenModelica
+	url = https://github.com/OpenModelica/OpenModelica.git
+[submodule "external/Assimulo"]
+	path = external/Assimulo
+	url = https://github.com/modelon-community/Assimulo.git
+[submodule "external/sundials"]
+	path = external/sundials
+	url = https://github.com/LLNL/sundials.git
+[submodule "external/Gymnasium"]
+	path = external/Gymnasium
+	url = https://github.com/Farama-Foundation/Gymnasium.git
+[submodule "external/PyFMI"]
+	path = external/PyFMI
+	url = https://github.com/modelon-community/PyFMI.git
+[submodule "external/doepy"]
+	path = external/doepy
+	url = https://github.com/tirthajyoti/doepy.git
+[submodule "external/do-mpc"]
+	path = external/do-mpc
+	url = https://github.com/do-mpc/do-mpc.git

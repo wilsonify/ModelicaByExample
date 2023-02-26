@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.DryApproach;
+within mbe.c07Components.Electrical.DryApproach;
 model Inductor "A DRY inductor model"
   parameter Modelica.SIunits.Inductance L;
   extends TwoPin;

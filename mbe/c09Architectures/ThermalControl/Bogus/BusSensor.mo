@@ -1,6 +1,6 @@
-within ModelicaByExample.Architectures.ThermalControl.Bogus;
+within mbe.c09Architectures.ThermalControl.Bogus;
 model BusSensor "Sensor model using normal bus"
-  extends ModelicaByExample.Architectures.ThermalControl.Bogus.Sensor_WithBus;
+  extends mbe.c09Architectures.ThermalControl.Bogus.Sensor_WithBus;
 protected
   Modelica.Thermal.HeatTransfer.Sensors.TemperatureSensor sensor
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

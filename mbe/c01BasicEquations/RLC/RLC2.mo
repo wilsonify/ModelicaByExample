@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.RLC;
+within mbe.c01BasicEquations.RLC;
 model RLC2
   type Voltage=Real(unit="V");
   type Current=Real(unit="A");

@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.CoolingRevisited;
+within mbe.c02DiscreteBehavior.CoolingRevisited;
 model NewtonCoolingIfExpression "Cooling example with if expression"
   type Temperature=Real(unit="K", min=0);
   type ConvectionCoefficient=Real(unit="W/(m2.K)", min=0);

@@ -1,13 +1,13 @@
-within ModelicaByExample.Components.LotkaVolterra.Examples;
+within mbe.c07Components.LotkaVolterra.Examples;
 model ClassicLotkaVolterra "Includes reproduction, starvation and predation"
-  Components.RegionalPopulation rabbits(init=ModelicaByExample.Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.FixedPopulation,
+  Components.RegionalPopulation rabbits(init=mbe.c07Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.FixedPopulation,
       initial_population=10)
     annotation (Placement(transformation(extent={{-50,-40},{-30,-20}})));
   Components.Reproduction reproduction(alpha=0.1) "Reproduction of rabbits"
     annotation (Placement(transformation(
         extent={{-10,-10},{10,10}},
         origin={-80,-30})));
-  Components.RegionalPopulation foxes(init=ModelicaByExample.Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.FixedPopulation,
+  Components.RegionalPopulation foxes(init=mbe.c07Components.LotkaVolterra.Components.RegionalPopulation.InitializationOptions.FixedPopulation,
       initial_population=10)
     annotation (Placement(transformation(extent={{30,-40},{50,-20}})));
   Components.Starvation fox_starvation(gamma=0.4) "Starvation of foxes"

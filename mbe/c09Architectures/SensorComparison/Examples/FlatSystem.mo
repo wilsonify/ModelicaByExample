@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 model FlatSystem "A rotational system with no architecture"
   Modelica.Mechanics.Rotational.Components.Fixed fixed
     annotation (Placement(transformation(extent={{10,-90},{30,-70}})));

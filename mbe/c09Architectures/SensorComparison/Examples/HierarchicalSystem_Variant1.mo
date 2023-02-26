@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 model HierarchicalSystem_Variant1 "Changing one subsystem of HierarchicalSystem"
   Implementation.BasicPlant plant
     annotation (Placement(transformation(extent={{-10,-40},{10,-20}})));

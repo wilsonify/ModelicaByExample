@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Architectures;
+within mbe.c09Architectures.ThermalControl.Architectures;
 partial model BaseArchitecture "A basic thermal architecture"
   replaceable Interfaces.PlantModel plant
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

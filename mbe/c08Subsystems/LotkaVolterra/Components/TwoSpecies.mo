@@ -1,10 +1,10 @@
-within ModelicaByExample.Subsystems.LotkaVolterra.Components;
+within mbe.c08Subsystems.LotkaVolterra.Components;
 model TwoSpecies "Lotka-Volterra two species configuration"
-  // Import several component models from ModelicaByExample.Components.LotkaVolterra
-  import ModelicaByExample.Components.LotkaVolterra.Components.RegionalPopulation;
-  import ModelicaByExample.Components.LotkaVolterra.Components.Reproduction;
-  import ModelicaByExample.Components.LotkaVolterra.Components.Starvation;
-  import ModelicaByExample.Components.LotkaVolterra.Components.Predation;
+  // Import several component models from mbe.c07Components.LotkaVolterra
+  import mbe.c07Components.LotkaVolterra.Components.RegionalPopulation;
+  import mbe.c07Components.LotkaVolterra.Components.Reproduction;
+  import mbe.c07Components.LotkaVolterra.Components.Starvation;
+  import mbe.c07Components.LotkaVolterra.Components.Predation;
 
   parameter Real alpha=0.1 "Birth rate";
   parameter Real gamma=0.4 "Starvation coefficient";
@@ -13,10 +13,10 @@ model TwoSpecies "Lotka-Volterra two species configuration"
   parameter Real beta=0.02 "Prey (rabbits) consumed";
   parameter Real delta=0.02 "Predators (foxes) fed";
 
-  ModelicaByExample.Components.LotkaVolterra.Interfaces.Species rabbits
+  mbe.c07Components.LotkaVolterra.Interfaces.Species rabbits
     "Population of rabbits in this region"
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));
-  ModelicaByExample.Components.LotkaVolterra.Interfaces.Species foxes
+  mbe.c07Components.LotkaVolterra.Interfaces.Species foxes
     "Population of foxes in this region"
     annotation (Placement(transformation(extent={{90,-10},{110,10}})));
 protected
@@ -72,5 +72,5 @@ equation
           Text(extent={{-100,120},{100,80}}, lineColor={0,127,0},
           textString="%name"),
           Bitmap(extent={{-100,86},{100,-98}}, fileName=
-              "modelica://ModelicaByExample/Resources/Images/rabbitandfox.jpg")}));
+              "modelica://mbe/Resources/Images/rabbitandfox.jpg")}));
 end TwoSpecies;

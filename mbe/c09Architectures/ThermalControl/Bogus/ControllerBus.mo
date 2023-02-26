@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Bogus;
+within mbe.c09Architectures.ThermalControl.Bogus;
 connector ControllerBus
   "An example of a simple bus connector for the control system"
   Modelica.Blocks.Interfaces.RealInput temperature;

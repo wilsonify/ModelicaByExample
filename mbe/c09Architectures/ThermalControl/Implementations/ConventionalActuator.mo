@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ConventionalActuator "Actuator in conventional architecture"
   extends Interfaces.Actuator;
 protected

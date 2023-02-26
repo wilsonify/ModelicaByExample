@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.LotkaVolterra;
+within mbe.c01BasicEquations.LotkaVolterra;
 model QuiescentModelUsingStart "Find steady state solutions to LotkaVolterra equations"
   parameter Real alpha=0.1 "Reproduction rate of prey";
   parameter Real beta=0.02 "Mortality rate of predator per prey";

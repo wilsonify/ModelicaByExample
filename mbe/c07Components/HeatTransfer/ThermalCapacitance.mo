@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer;
+within mbe.c07Components.HeatTransfer;
 model ThermalCapacitance "A model of thermal capacitance"
   parameter Modelica.SIunits.HeatCapacity C "Thermal capacitance";
   parameter Modelica.SIunits.Temperature T0 "Initial temperature";

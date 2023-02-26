@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Interpolation;
+within mbe.c04Functions.Interpolation;
 model IntegrateInterpolatedExternalVector
   "Exercises the InterpolateExternalVector"
   parameter VectorTable vector = VectorTable(ybar=[0.0, 0.0;

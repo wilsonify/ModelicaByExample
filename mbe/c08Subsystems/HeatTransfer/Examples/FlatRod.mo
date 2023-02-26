@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.HeatTransfer.Examples;
+within mbe.c08Subsystems.HeatTransfer.Examples;
 model FlatRod "Modeling a heat transfer in a rod in a without subsystems"
   Modelica.Thermal.HeatTransfer.Sources.PrescribedHeatFlow heating
     "Heating actuator"

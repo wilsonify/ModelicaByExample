@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.PulseGenerator;
+within mbe.c02DiscreteBehavior.PulseGenerator;
 model PulseGenerator "A model that produces pulses at a fixed interval"
   type Time=Real(unit="s");
   parameter Time width=100e-3;

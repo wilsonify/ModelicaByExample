@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.LotkaVolterra.Examples;
+within mbe.c08Subsystems.LotkaVolterra.Examples;
 model UnconnectedPopulations "Several unconnected regional populations"
   Components.TwoSpecies A "Region A"
     annotation (Placement(transformation(extent={{-10,80},{10,100}})));

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.ChemicalReactions;
+within mbe.c03ArrayEquations.ChemicalReactions;
 model Reactions_Enum "Modeling a chemical reaction with enums"
   type Species = enumeration(
       A,

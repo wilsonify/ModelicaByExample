@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.VerboseApproach;
+within mbe.c07Components.Electrical.VerboseApproach;
 model Resistor "A resistor model"
   parameter Modelica.SIunits.Resistance R;
   Modelica.Electrical.Analog.Interfaces.PositivePin p

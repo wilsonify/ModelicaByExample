@@ -1,6 +1,6 @@
-within ModelicaByExample.Components.SpeedMeasurement.Examples;
+within mbe.c07Components.SpeedMeasurement.Examples;
 model Plant "The basic plant model"
-  extends ModelicaByExample.Components.Rotational.Examples.SMD;
+  extends mbe.c07Components.Rotational.Examples.SMD;
   Components.IdealSensor idealSensor
     annotation (Placement(transformation(extent={{-10,-10},{10,10}},
                           rotation=90, origin={-20,30})));

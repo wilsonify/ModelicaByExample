@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.SynchronousSystems;
+within mbe.c02DiscreteBehavior.SynchronousSystems;
 model IndependentSampling "Sampling independently"
   Real x "Sampled at 10Hz via one method";
   Real y "Sampled at 10Hz via another method";

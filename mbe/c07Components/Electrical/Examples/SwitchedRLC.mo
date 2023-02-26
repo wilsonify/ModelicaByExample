@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.Examples;
+within mbe.c07Components.Electrical.Examples;
 model SwitchedRLC "Recreation of the switched RLC circuit"
   DryApproach.StepVoltage Vs(V0=0, Vf=24, stepTime=0.5)
     annotation (Placement(transformation(

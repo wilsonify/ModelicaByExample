@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Examples;
+within mbe.c07Components.Rotational.Examples;
 model SMD_WithGroundedGear
   "Spring mass damper system with coupled inertias and a grounded gear"
 

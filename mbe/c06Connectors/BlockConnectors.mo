@@ -1,4 +1,4 @@
-within ModelicaByExample.Connectors;
+within mbe.c06Connectors;
 package BlockConnectors "Connectors for block diagrams"
   connector RealInput = input Real;
   connector RealOutput = output Real;

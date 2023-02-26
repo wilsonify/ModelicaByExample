@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Architectures;
+within mbe.c09Architectures.ThermalControl.Architectures;
 partial model ExpandableArchitecture
   "A thermal architecture using an expandable bus"
 

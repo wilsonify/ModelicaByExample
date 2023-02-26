@@ -1,9 +1,9 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model Inertia2 "A rotational inertia model with optional initial conditions"
   parameter Modelica.SIunits.Inertia J;
   parameter Modelica.SIunits.Angle phi0 "Initial angle";
   parameter Modelica.SIunits.AngularVelocity w0 "Initial velocity";
-  extends ModelicaByExample.Components.Rotational.Interfaces.TwoFlange;
+  extends mbe.c07Components.Rotational.Interfaces.TwoFlange;
 protected
   Modelica.SIunits.AngularVelocity w;
 initial equation

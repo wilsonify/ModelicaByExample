@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Nonlinearities;
+within mbe.c04Functions.Nonlinearities;
 model ImplicitEvaluation
   "Model that requires the inverse of the quadratic function"
   parameter Real y_guess=2;

@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.SimpleExample;
+within mbe.c01BasicEquations.SimpleExample;
 model FirstOrderExperiment "Defining experimental conditions"
   Real x "State variable";
 initial equation

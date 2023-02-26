@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Examples;
+within mbe.c09Architectures.ThermalControl.Examples;
 model ExpandableModel "Thermal system using expandable bus architecture"
   extends Architectures.ExpandableArchitecture(
     redeclare replaceable Implementations.ThreeZonePlantModel plant(

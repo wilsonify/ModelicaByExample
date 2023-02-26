@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model IdealActuator "An implementation of an ideal actuator"
   Modelica.Mechanics.Rotational.Interfaces.Flange_b shaft "Output shaft"
     annotation (Placement(transformation(extent={{90,-10},{110,10}})));

@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.GearSubsystemModel.Examples;
+within mbe.c08Subsystems.GearSubsystemModel.Examples;
 model FlatSystemWithBacklash
   "An example where all components models are present at the same level"
 

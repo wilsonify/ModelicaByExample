@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model GroundedGear "An ideal non-reversing gear with grounded housing"
   parameter Real ratio "Ratio of phi_a/phi_b";
   extends Interfaces.TwoFlange;

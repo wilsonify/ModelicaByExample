@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Interfaces;
+within mbe.c07Components.LotkaVolterra.Interfaces;
 connector Species "Used to represent the population of a specific species"
   Real population "Animal population";
   flow Real rate "Flows that affect animal population";

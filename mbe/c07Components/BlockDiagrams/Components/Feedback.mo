@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Feedback "A block to compute feedback terms"
   Interfaces.RealInput u1
     annotation (Placement(transformation(extent={{-120,-10},{-100,10}})));

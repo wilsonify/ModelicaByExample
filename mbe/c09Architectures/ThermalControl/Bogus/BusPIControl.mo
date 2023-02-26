@@ -1,7 +1,7 @@
-within ModelicaByExample.Architectures.ThermalControl.Bogus;
+within mbe.c09Architectures.ThermalControl.Bogus;
 model BusPIControl "PI control using bus connectors"
   extends
-    ModelicaByExample.Architectures.ThermalControl.Bogus.ControlSystem_WithBus;
+    mbe.c09Architectures.ThermalControl.Bogus.ControlSystem_WithBus;
   parameter Real setpoint "Desired temperature";
   parameter Real k=1 "Gain";
   parameter Modelica.SIunits.Time T "Time Constant (T>0 required)";

@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model BasicPlant "Implementation of the basic plant model"
   parameter Modelica.SIunits.Inertia J_a=0.1 "Moment of inertia";
   parameter Modelica.SIunits.Inertia J_b=0.3 "Moment of inertia";

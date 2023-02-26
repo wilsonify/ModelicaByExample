@@ -1,3 +1,3 @@
-within ModelicaByExample.DiscreteBehavior;
+within mbe.c02DiscreteBehavior;
 package Accuracy
 end Accuracy;

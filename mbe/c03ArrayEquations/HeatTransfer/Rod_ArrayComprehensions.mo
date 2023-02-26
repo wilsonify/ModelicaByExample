@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.HeatTransfer;
+within mbe.c03ArrayEquations.HeatTransfer;
 model Rod_ArrayComprehensions
   "Modeling heat conduction in a rod using array comprehensions"
   type Temperature=Real(unit="K", min=0);

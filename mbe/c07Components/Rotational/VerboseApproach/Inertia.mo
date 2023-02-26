@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.VerboseApproach;
+within mbe.c07Components.Rotational.VerboseApproach;
 model Inertia "Rotational inertia without inheritance"
   parameter Modelica.SIunits.Inertia J;
   Modelica.Mechanics.Rotational.Interfaces.Flange_a flange_a

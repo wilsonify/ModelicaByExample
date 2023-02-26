@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.LotkaVolterra;
+within mbe.c01BasicEquations.LotkaVolterra;
 model ComplexInitialization "Complex initial conditions"
   extends ClassicModel;
 initial equation

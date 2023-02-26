@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Interfaces;
+within mbe.c07Components.Rotational.Interfaces;
 partial model TwoFlange
   "Definition of a partial rotational component with two flanges"
 

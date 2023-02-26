@@ -1,4 +1,4 @@
-within ModelicaByExample.PackageExamples;
+within mbe.c05PackageExamples;
 model SecondOrderSystem
   "A second order rotational system importing types from Modelica Standard Library"
   import Modelica.SIunits.*;

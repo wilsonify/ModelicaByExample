@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model UngroundedGear "An ideal non-reversing gear with a free housing"
   parameter Real ratio "Ratio of phi_a/phi_b";
   extends Interfaces.TwoFlange;

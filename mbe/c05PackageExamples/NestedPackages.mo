@@ -1,4 +1,4 @@
-within ModelicaByExample.PackageExamples;
+within mbe.c05PackageExamples;
 package NestedPackages
   "An example of how packages can be used to organize things"
   package Types

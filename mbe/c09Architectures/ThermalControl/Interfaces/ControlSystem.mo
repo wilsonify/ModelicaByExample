@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Interfaces;
+within mbe.c09Architectures.ThermalControl.Interfaces;
 partial model ControlSystem "Control system interface"
   Modelica.Blocks.Interfaces.RealInput temperature "Measured temperature"
     annotation (Placement(transformation(

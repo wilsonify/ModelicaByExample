@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model LimitedActuator "An actuator with lag and saturation"
   extends Interfaces.Actuator;
   parameter Modelica.SIunits.Time delayTime

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Examples;
+within mbe.c07Components.Rotational.Examples;
 model SMD_GearComparison "Use case using both grounded and ungrounded gears"
 
   Components.Ground ground annotation (Placement(transformation(

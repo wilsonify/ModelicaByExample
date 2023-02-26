@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ConventionalSensor "Ideal sensor in a conventional architecture"
   extends Interfaces.Sensor;
 protected

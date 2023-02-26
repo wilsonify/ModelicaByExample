@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ConventionOnOffActuator "Attempt to implement on-off actuator"
   extends Interfaces.Actuator;
   parameter Real heating_capacity "Heating capacity of actuator";

@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.CoolingRevisited;
+within mbe.c02DiscreteBehavior.CoolingRevisited;
 model NewtonCoolingSteadyThenDynamic
   "Dynamic cooling example with steady state conditions"
   type Temperature=Real(unit="K", min=0);

@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.RotationalSMD;
+within mbe.c01BasicEquations.RotationalSMD;
 model SecondOrderSystemInitParams
   "A second order rotational system with initialization parameters"
   type Angle=Real(unit="rad");

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace;
+within mbe.c03ArrayEquations.StateSpace;
 model LTI
   "Equations written in ABCD form where matrices are also time-invariant"
   parameter Integer nx=0 "Number of states";

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace;
+within mbe.c03ArrayEquations.StateSpace;
 partial model ABCD "Equations written in (potentially non-linear) ABCD form"
   parameter Integer nx;
   parameter Integer ny;

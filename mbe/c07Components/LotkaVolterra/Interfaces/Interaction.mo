@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.LotkaVolterra.Interfaces;
+within mbe.c07Components.LotkaVolterra.Interfaces;
 partial model Interaction "Used to describe interactions between two species"
   Species a "Species A"
     annotation (Placement(transformation(extent={{-110,-10},{-90,10}})));

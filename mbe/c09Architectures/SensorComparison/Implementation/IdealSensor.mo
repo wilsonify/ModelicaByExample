@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Implementation;
+within mbe.c09Architectures.SensorComparison.Implementation;
 model IdealSensor "Implementation of an ideal sensor"
   Modelica.Mechanics.Rotational.Interfaces.Flange_a shaft
     "Flange of shaft from which sensor information shall be measured"

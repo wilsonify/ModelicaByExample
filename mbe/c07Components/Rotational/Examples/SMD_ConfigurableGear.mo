@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.Examples;
+within mbe.c07Components.Rotational.Examples;
 model SMD_ConfigurableGear
   "Use case using configurable gear in two different ways"
 

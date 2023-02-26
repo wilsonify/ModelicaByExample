@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.PowerSupply.Examples;
+within mbe.c08Subsystems.PowerSupply.Examples;
 model FlatCircuit "A model with power source, AC-DC conversion and load in one diagram"
   import Modelica.Electrical.Analog;
   Analog.Sources.SineVoltage wall_voltage(V=120, freqHz=60)

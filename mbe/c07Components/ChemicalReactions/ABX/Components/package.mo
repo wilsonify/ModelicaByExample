@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.ChemicalReactions.ABX;
+within mbe.c07Components.ChemicalReactions.ABX;
 package Components "Component models for chemical reactions"
   model 'A+B->X' "A+B -> X"
     extends Interfaces.Reaction;

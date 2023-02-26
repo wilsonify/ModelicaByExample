@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Electrical.DryApproach;
+within mbe.c07Components.Electrical.DryApproach;
 model Capacitor "A DRY capacitor model"
   parameter Modelica.SIunits.Capacitance C;
   extends TwoPin;

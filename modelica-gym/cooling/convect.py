@@ -2,8 +2,8 @@
 RL cycle
 """
 
-import gym
-from gym import register
+import gymnasium as gym
+from gymnasium import register
 
 from newton_cooling_env import NewtonCoolingEnv
 

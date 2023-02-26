@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.CoolingExample;
+within mbe.c01BasicEquations.CoolingExample;
 model NewtonCoolingWithUnits "Cooling example with physical units"
   parameter Real T_inf(unit="K")=298.15 "Ambient temperature";
   parameter Real T0(unit="K")=363.15 "Initial temperature";

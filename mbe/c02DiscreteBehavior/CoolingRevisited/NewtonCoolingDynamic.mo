@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.CoolingRevisited;
+within mbe.c02DiscreteBehavior.CoolingRevisited;
 model NewtonCoolingDynamic
   "Cooling example with fluctuating ambient conditions"
   // Types

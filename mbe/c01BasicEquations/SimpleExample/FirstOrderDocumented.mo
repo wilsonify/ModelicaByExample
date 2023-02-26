@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.SimpleExample;
+within mbe.c01BasicEquations.SimpleExample;
 model FirstOrderDocumented "A simple first order differential equation"
   Real x "State variable";
 equation

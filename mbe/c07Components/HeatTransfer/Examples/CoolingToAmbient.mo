@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.HeatTransfer.Examples;
+within mbe.c07Components.HeatTransfer.Examples;
 model CoolingToAmbient "A model using convection to an ambient condition"
 
   ThermalCapacitance cap(C=0.12, T0(displayUnit="K") = 363.15)

@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace.Examples;
+within mbe.c03ArrayEquations.StateSpace.Examples;
 model RotationalSMD_Concat
   "State space version of a rotationals spring-mass-damper system using concatenation"
   parameter Real J1=0.4;

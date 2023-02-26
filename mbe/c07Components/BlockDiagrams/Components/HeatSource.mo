@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 model HeatSource "Apply heating (or cooling) to a thermal system"
   extends Interfaces.SI;
   Modelica.Thermal.HeatTransfer.Interfaces.HeatPort_b node

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Components;
+within mbe.c07Components.SpeedMeasurement.Components;
 model PulseCounter "Compute speed using pulse counting"
   extends Interfaces.SpeedSensor;
   parameter Modelica.SIunits.Time sample_time;

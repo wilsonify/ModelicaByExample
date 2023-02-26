@@ -1,4 +1,4 @@
-within ModelicaByExample.PackageExamples;
+within mbe.c05PackageExamples;
 model RLC "An RLC circuit referencing types from the Modelica Standard Library"
   parameter Modelica.SIunits.Voltage Vb=24 "Battery voltage";
   parameter Modelica.SIunits.Inductance L = 1;

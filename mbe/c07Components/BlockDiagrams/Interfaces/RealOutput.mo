@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 connector RealOutput = output Real annotation (Diagram(graphics={Polygon(
         points={{0,50},{100,0},{0,-50},{0,50}},
         lineColor={0,0,255},

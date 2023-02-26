@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.SimpleExample;
+within mbe.c01BasicEquations.SimpleExample;
 model FirstOrderSteady
   "First order equation with steady state initial condition"
   Real x "State variable";

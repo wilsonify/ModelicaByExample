@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.ThermalControl.Implementations;
+within mbe.c09Architectures.ThermalControl.Implementations;
 model ConventionalOnOffControl "Attempt to implement on-off control"
   extends Interfaces.ControlSystem;
   Modelica.Blocks.Logical.Greater greater

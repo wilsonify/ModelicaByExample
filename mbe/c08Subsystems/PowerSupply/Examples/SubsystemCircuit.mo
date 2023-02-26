@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.PowerSupply.Examples;
+within mbe.c08Subsystems.PowerSupply.Examples;
 model SubsystemCircuit "Example using BasicPowerSupply subsystem"
   Components.BasicPowerSupply power_supply
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

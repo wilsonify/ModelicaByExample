@@ -1,4 +1,4 @@
-within ModelicaByExample.Functions.Nonlinearities;
+within mbe.c04Functions.Nonlinearities;
 function InverseQuadratic
   "An inverse of the quadratic function returning the positive root"
   input Real a;

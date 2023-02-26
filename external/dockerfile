@@ -1,0 +1,3 @@
+FROM mbe-builder:latest as builder
+
+FROM mbe-base:latest

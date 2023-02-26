@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Examples;
+within mbe.c09Architectures.SensorComparison.Examples;
 model BaseSystem "System architecture with base implementations"
   extends SystemArchitecture(
     redeclare replaceable Implementation.ProportionalController controller,

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Components;
+within mbe.c07Components.BlockDiagrams.Components;
 block Gain "A gain block model"
   extends Interfaces.SISO;
   parameter Real k "Gain coefficient";

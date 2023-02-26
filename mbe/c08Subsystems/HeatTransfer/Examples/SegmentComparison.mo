@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.HeatTransfer.Examples;
+within mbe.c08Subsystems.HeatTransfer.Examples;
 model SegmentComparison "Comparing different segmentation levels"
   ThreeSegmentRod rod3;
   SixSegmentRod rod6;

@@ -1,4 +1,4 @@
-within ModelicaByExample.BasicEquations.RLC;
+within mbe.c01BasicEquations.RLC;
 model RLC1 "A resistor-inductor-capacitor circuit model"
   type Voltage=Real(unit="V");
   type Current=Real(unit="A");

@@ -1,4 +1,4 @@
-within ModelicaByExample.Architectures.SensorComparison.Interfaces;
+within mbe.c09Architectures.SensorComparison.Interfaces;
 partial model Sensor "Interface for sensor"
   Modelica.Mechanics.Rotational.Interfaces.Flange_a shaft
     "Flange of shaft from which sensor information shall be measured"

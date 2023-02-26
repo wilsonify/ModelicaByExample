@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Examples;
+within mbe.c07Components.SpeedMeasurement.Examples;
 model PlantWithIntervalMeasure
   "Comparison between ideal and an interval measuring sensor"
   extends Plant;

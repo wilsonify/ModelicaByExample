@@ -1,6 +1,6 @@
-within ModelicaByExample.Architectures.ThermalControl.Bogus;
+within mbe.c09Architectures.ThermalControl.Bogus;
 model BusActuator "Actuator subsystem using normal bus"
-  extends ModelicaByExample.Architectures.ThermalControl.Bogus.Actuator_WithBus;
+  extends mbe.c09Architectures.ThermalControl.Bogus.Actuator_WithBus;
 protected
   Modelica.Thermal.HeatTransfer.Sources.PrescribedHeatFlow heater
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));

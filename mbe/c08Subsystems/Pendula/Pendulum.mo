@@ -1,4 +1,4 @@
-within ModelicaByExample.Subsystems.Pendula;
+within mbe.c08Subsystems.Pendula;
 model Pendulum "A single individual pendulum"
   import Modelica.Mechanics.MultiBody.Parts;
   import Modelica.Mechanics.MultiBody.Joints;

@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.Backlash;
+within mbe.c02DiscreteBehavior.Backlash;
 model Backlash "Implementing the behavior of a backlash using a 'stiff spring'"
   type Angle=Real(unit="rad");
   type AngularVelocity=Real(unit="rad/s");

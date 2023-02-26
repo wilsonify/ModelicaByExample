@@ -1,7 +1,7 @@
-within ModelicaByExample.Components.Rotational.Components;
+within mbe.c07Components.Rotational.Components;
 model Spring "A rotational spring component"
   parameter Modelica.SIunits.RotationalSpringConstant c;
-  extends ModelicaByExample.Components.Rotational.Interfaces.Compliant;
+  extends mbe.c07Components.Rotational.Interfaces.Compliant;
 equation
   tau = c*phi_rel "Hooke's Law";
   annotation (Icon(graphics={

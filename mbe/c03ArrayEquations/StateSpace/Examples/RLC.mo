@@ -1,4 +1,4 @@
-within ModelicaByExample.ArrayEquations.StateSpace.Examples;
+within mbe.c03ArrayEquations.StateSpace.Examples;
 model RLC "State space version of an RLC circuit"
   parameter Real Vb=24;
   parameter Real L=1;

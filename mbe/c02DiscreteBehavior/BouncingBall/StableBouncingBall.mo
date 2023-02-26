@@ -1,4 +1,4 @@
-within ModelicaByExample.DiscreteBehavior.BouncingBall;
+within mbe.c02DiscreteBehavior.BouncingBall;
 model StableBouncingBall
   "The 'classic' bouncing ball model with numerical tolerances"
   type Height=Real(unit="m");

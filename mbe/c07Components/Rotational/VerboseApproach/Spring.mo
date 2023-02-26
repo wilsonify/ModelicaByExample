@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.Rotational.VerboseApproach;
+within mbe.c07Components.Rotational.VerboseApproach;
 model Spring "Rotational spring without inheritance"
   parameter Modelica.SIunits.RotationalSpringConstant c;
   Modelica.Mechanics.Rotational.Interfaces.Flange_a flange_a

@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.BlockDiagrams.Interfaces;
+within mbe.c07Components.BlockDiagrams.Interfaces;
 connector RealInput = input Real annotation (Icon(graphics={Polygon(
         points={{-100,100},{100,0},{-100,-100},{-100,100}},
         lineColor={0,0,255},

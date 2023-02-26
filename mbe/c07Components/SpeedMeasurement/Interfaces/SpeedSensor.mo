@@ -1,4 +1,4 @@
-within ModelicaByExample.Components.SpeedMeasurement.Interfaces;
+within mbe.c07Components.SpeedMeasurement.Interfaces;
 partial model SpeedSensor "The base class for all of our sensor models"
   extends Modelica.Mechanics.Rotational.Interfaces.PartialAbsoluteSensor;
   Modelica.Blocks.Interfaces.RealOutput w "Sensed speed"
