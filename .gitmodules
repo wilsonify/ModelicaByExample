@@ -22,7 +22,7 @@
 	url = https://github.com/modelon-community/PyFMI.git
 [submodule "external/doepy"]
 	path = external/doepy
-	url = https://github.com/tirthajyoti/doepy.git
+	url = https://github.com/wilsonify/doepy.git
 [submodule "external/do-mpc"]
 	path = external/do-mpc
 	url = https://github.com/do-mpc/do-mpc.git
