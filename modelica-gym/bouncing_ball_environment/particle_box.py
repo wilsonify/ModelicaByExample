@@ -7,9 +7,11 @@ website: http://jakevdp.github.com
 license: BSD
 Please feel free to use and modify this, but keep the above information. Thanks!
 """
-import matplotlib.animation as animation
+
+import matplotlib.image as mgimg
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib.animation import FuncAnimation
 from scipy.spatial.distance import pdist, squareform
 
 
@@ -153,7 +155,7 @@ def animate(i):
     return particles, rect
 
 
-ani = animation.FuncAnimation(
+ani = FuncAnimation(
     fig,
     animate,
     frames=600,
@@ -163,3 +165,13 @@ ani = animation.FuncAnimation(
 )
 
 ani.save('particle_box.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+
+fig = plt.figure()
+myimages = []
+for p in range(1, 4):
+    fname = "heatflow%03d.png" % p
+    img = mgimg.imread(fname)
+    imgplot = plt.imshow(img)
+    myimages.append([imgplot])
+my_anim = ArtistAnimation(fig, myimages, interval=1000, blit=True, repeat_delay=1000)
+my_anim.save("animation.mp4")

@@ -1,4 +1,5 @@
 from bounce import pbdesign, bbdesign, ffdesign
+from objective import penalty
 
 
 def test_pbdesign():
@@ -110,3 +111,8 @@ def test_ffdesign():
         {'e': 0.8, 'g': 9.0},
         {'e': 0.9, 'g': 9.0}
     ]
+
+
+def test_penalty():
+    result = penalty(suggested=1.0, low=0.0, previous=5.0, high=10.0)
+    assert result == 0.2
