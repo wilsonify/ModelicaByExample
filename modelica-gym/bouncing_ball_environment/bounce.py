@@ -3,7 +3,6 @@ Demonstrates simulation of FMUs
 """
 import logging
 
-import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -14,7 +13,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import PolynomialFeatures
 
 from experiment import pbdesign, bbdesign, ffdesign
-from objective import desire, composite
+from objective import desire, composite, to_number
 
 WORK_DIR = "/media/thom/SSD1/mrepos/github.com/wilsonify/ModelicaByExample/modelica-gym/bouncing_ball_environment"
 bd = {"e": [0.1, 1.0], "g": [1.0, 10.0]}
@@ -26,9 +25,6 @@ cofactors = []
 outputs = ['h']
 x_cols = ['e', 'g', 'time']
 y_cols = ['h']
-
-
-
 
 
 def main_pb():
