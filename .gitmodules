@@ -26,3 +26,6 @@
 [submodule "external/do-mpc"]
 	path = external/do-mpc
 	url = https://github.com/do-mpc/do-mpc.git
+[submodule "external/pycaret"]
+	path = external/pycaret
+	url = https://github.com/wilsonify/pycaret.git
