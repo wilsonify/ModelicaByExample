@@ -55,9 +55,11 @@ import tensorflow as tf
 from keras import layers
 
 import gymnasium as gym
+from cartpole import CartPoleEnv
 
 eps = 0.00001  # np.finfo(np.float32).eps.item()  # Small epsilon value for stabilizing division operations
-env = gym.make("CartPole-v0", render_mode='rgb_array')  # Create the environment
+gym.register(id="CartPole-v5", entry_point=CartPoleEnv)
+env = gym.make("CartPole-v5", render_mode='rgb_array')  # Create the environment
 
 
 class ActorCritic(tf.keras.Model):
