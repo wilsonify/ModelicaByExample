@@ -29,3 +29,6 @@
 [submodule "external/pycaret"]
 	path = external/pycaret
 	url = https://github.com/wilsonify/pycaret.git
+[submodule "external/FMPy"]
+	path = external/FMPy
+	url = https://github.com/CATIA-Systems/FMPy.git
