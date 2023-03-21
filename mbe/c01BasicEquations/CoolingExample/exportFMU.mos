@@ -1,0 +1,12 @@
+print("Start Loading Modules");
+loadFile("NewtonCoolingWithTypes.mo");  getErrorString();
+print("Done Loading Modules");
+
+print("Start Translating Model FMU ");
+translateModelFMU(NewtonCoolingWithTypes, version = "2.0", fmuType = "cs");  getErrorString();
+print("Done Translating Model FMU ");
+
+
+
+
+
