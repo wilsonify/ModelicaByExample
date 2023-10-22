@@ -32,3 +32,6 @@
 [submodule "external/FMPy"]
 	path = external/FMPy
 	url = https://github.com/CATIA-Systems/FMPy.git
+[submodule "external/modelicagym"]
+	path = external/modelicagym
+	url = https://github.com/wilsonify/modelicagym.git
